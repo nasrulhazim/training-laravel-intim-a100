@@ -17,7 +17,7 @@
 					<div class="form-group">
 					  <label class="col-md-4 control-label" for="name">Name</label>  
 					  <div class="col-md-4">
-					  <input id="name" name="name" type="text" placeholder="" class="form-control input-md" required="">
+					  <input id="name" name="name" type="text" placeholder="" class="form-control input-md" >
 					    
 					  </div>
 					</div>
@@ -26,7 +26,7 @@
 					<div class="form-group">
 					  <label class="col-md-4 control-label" for="email">E-mail</label>  
 					  <div class="col-md-4">
-					  <input id="email" name="email" type="text" placeholder="" class="form-control input-md" required="">
+					  <input id="email" name="email" type="text" placeholder="" class="form-control input-md" >
 					    
 					  </div>
 					</div>
@@ -35,7 +35,7 @@
 					<div class="form-group">
 					  <label class="col-md-4 control-label" for="ic">I/C</label>  
 					  <div class="col-md-4">
-					  <input id="ic" name="ic" type="text" placeholder="" class="form-control input-md" required="">
+					  <input id="ic" name="ic" type="text" placeholder="" class="form-control input-md" >
 					    
 					  </div>
 					</div>
@@ -55,7 +55,7 @@
 					<div class="form-group">
 					  <label class="col-md-4 control-label" for="password">Password</label>
 					  <div class="col-md-4">
-					    <input id="password" name="password" type="password" placeholder="" class="form-control input-md" required="">
+					    <input id="password" name="password" type="password" placeholder="" class="form-control input-md" >
 					    
 					  </div>
 					</div>
@@ -79,7 +79,7 @@
 					  <div class="col-md-4">
 					    <div class="input-group">
 					      <span class="input-group-addon">+6</span>
-					      <input id="phone" name="phone" class="form-control" placeholder="01912345678" type="text" required="">
+					      <input id="phone" name="phone" class="form-control" placeholder="01912345678" type="text" >
 					    </div>
 					    
 					  </div>
@@ -90,7 +90,7 @@
 					  <label class="col-md-4 control-label" for="submit"></label>
 					  <div class="col-md-8">
 					    <button id="submit" name="submit" class="btn btn-success">Save</button>
-					    <button id="cancel" name="cancel" class="btn btn-danger">Cancel</button>
+					    <a id="cancel" name="cancel" href="{{ route('users.index') }}" class="btn btn-danger">Cancel</a>
 					  </div>
 					</div>
 
