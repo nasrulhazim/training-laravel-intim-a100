@@ -8,6 +8,6 @@
 
 3. Create a database for application and configure database connection in `.env`
 
-4. Run `php artisan migrate`
+4. Run `php artisan key:generate` and `php artisan migrate`
 
 5. Run `php artisan serve` to serve the application to browser.
