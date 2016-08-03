@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 
+use App\Http\Requests\StoreUserRequest;
+
 use App\User;
 
 class UsersController extends Controller
@@ -41,12 +43,9 @@ class UsersController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(StoreUserRequest $request)
     {
-        $this->validate($request, [
-            'name' => 'required|max:255',
-            'email' => 'required',
-        ]);
+        
     }
 
     /**
