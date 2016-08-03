@@ -23,6 +23,10 @@
         .fa-btn {
             margin-right: 6px;
         }
+
+        .required {
+          color: red;
+        }
     </style>
 </head>
 <body id="app-layout">

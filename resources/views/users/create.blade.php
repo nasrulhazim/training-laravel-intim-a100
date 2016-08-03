@@ -17,8 +17,8 @@
 					<div class="form-group">
 					  <label class="col-md-4 control-label" for="name">Name</label>  
 					  <div class="col-md-4">
-					  <input id="name" name="name" type="text" placeholder="" class="form-control input-md" >
-					    
+					  <input id="name" name="name" type="text" placeholder="" class="form-control input-md">
+					    <span class="help-block"><span class="required">*</span> required</span>  
 					  </div>
 					</div>
 
@@ -27,7 +27,7 @@
 					  <label class="col-md-4 control-label" for="email">E-mail</label>  
 					  <div class="col-md-4">
 					  <input id="email" name="email" type="text" placeholder="" class="form-control input-md" >
-					    
+					    <span class="help-block"><span class="required">*</span> required</span>
 					  </div>
 					</div>
 
