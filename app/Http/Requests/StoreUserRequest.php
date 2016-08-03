@@ -28,4 +28,13 @@ class StoreUserRequest extends Request
             'email' => 'required',
         ];
     }
+
+    public function messages()
+    {
+        return [
+            'name.required' => 'nama tak isi boh!',
+            'email.required'  => 'takkan email xdop? berat 66',
+        ];
+    }
+
 }

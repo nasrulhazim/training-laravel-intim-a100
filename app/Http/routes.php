@@ -19,4 +19,6 @@ Route::auth();
 
 Route::get('/home', 'HomeController@index');
 
-Route::resource('/users', 'UsersController');
+Route::group(['middleware' => ['auth', 'role:administrator']], function() {
+    Route::resource('users', 'UsersController');
+});

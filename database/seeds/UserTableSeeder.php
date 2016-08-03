@@ -20,8 +20,8 @@ class UserTableSeeder extends Seeder
     	// insert 10 records for table users
         // factory(User::class, 10)->create();
         
-        factory(App\User::class, 10)->create()->each(function($u){
-            $u->profile()->save(factory(App\Profile::class)->make());
-        });
+        // factory(App\User::class, 10)->create()->each(function($u){
+        //     $u->profile()->save(factory(App\Profile::class)->make());
+        // });
     }
 }
